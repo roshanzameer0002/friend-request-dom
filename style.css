@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+  height: 300px;
+  width: 300px;
+  background-color: rgb(255, 0, 0);
+  position: relative;
+  top:200px;
+  left: 400px;
+}
+
+#c1{
+   height: 100px;
+    width: 100px;
+  background-color: green;
+  position: absolute; 
+  top: 100%;
+  left: 60%;
+}
+#c2{
+  height: 100px;
+    width: 100px;
+  background-color: yellow;
+  position: absolute; 
+  top: 30px;
+  left: 500px;
+}
